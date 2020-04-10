@@ -1,6 +1,6 @@
 # Models_Reproduce_Pytorch
 
-This repository contains pytorch codes for popular deep CNN architectures and real-time updated results for ImageNet, which are served as baseline models in our research group. We aim to accelarate the advance of Deep Learning Research and make reproducible results in Pytorch.
+This repository contains pytorch codes for popular deep CNN architectures and real-time updated results on ImageNet. The results can serve as baseline results for our research group. We aim to accelarate the advance of Deep Learning Research and make reproducible results in Pytorch. We also hope this repository is helpful for your research.
 
 # ImageNet Results
 
