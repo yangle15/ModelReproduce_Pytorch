@@ -20,3 +20,4 @@ Lr = 0.2, Epoch = 300, Lr_schedual = 'cosine', weight_decay = 1e-4
 |ResNeXt101, 32x8d|88.8M|x|78.9|94.1
 
 ****
+
