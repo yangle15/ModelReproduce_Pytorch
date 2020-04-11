@@ -21,8 +21,8 @@ Batch_size(B) , Lr , Epoch , Lr_schedualr (LrS), weight_decay = 1e-4
 |ResNet50  |25.6M |4.10G|77.28|93.46|1024|0.4|120|warm5+cosine|Y Han
 |ResNet101 |44.6M |7.82G|-|-|1024|0.4|90|warm5+cosine|Y Han
 |ResNet101 |44.6M |7.82G|78.68|94.32|1024|0.4|120|warm5+cosine|Y Han
-|ResNet50  |25.6M |4.10G|77.0|93.2|512|0.2|300|cosine|Y Wang
-|ResNet101 |44.6M |7.82G|78.3|93.9|512|0.2|300|cosine|Y Wang
+|ResNet50  |25.6M |-|77.0|93.2|512|0.2|300|cosine|Y Wang
+|ResNet101 |44.6M |-|78.3|93.9|512|0.2|300|cosine|Y Wang
 |ResNet152 |60.3M |-|78.7|94.2|512|0.2|300|cosine|Y Wang
 |ResNeXt50, 32X4d |25.0M|-|77.5|93.6|512|0.2|300|cosine|Y Wang
 |ResNeXt101, 32x8d|88.8M|-|78.9|94.1|512|0.2|300|cosine|Y Wang
@@ -40,8 +40,8 @@ Batch_size(B) , Lr , Epoch , Lr_schedualr (LrS), weight_decay = 1e-4
 |DenseNetBC201 |20.0M |4.32G|78.06|93.92|1024|0.4|90|cosine|H Jiang
 |DenseNetBC265 |33.3M |5.79G|77.60|93.78|1024|0.4|90|step-0.1-[30,60]|H Jiang
 |DenseNetBC265 |33.3M |5.79G|78.17|94.01|1024|0.4|90|cosine|H Jiang
-|DenseNetBC121 |8.0M |2.85G|75.00|92.30|512|0.2|300|cosine|Y Wang
-|DenseNetBC265 |33.3M |5.79G|77.80|93.90|512|0.2|300|cosine|Y Wang
+|DenseNetBC121 |8.0M |2.85G|76.30|93.20|512|0.2|300|cosine|Y Wang
+|DenseNetBC265 |33.3M |5.79G|78.10|93.90|512|0.2|300|cosine|Y Wang
 
 ****
 Still under construction.
