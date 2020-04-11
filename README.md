@@ -19,8 +19,8 @@ Batch_size(B) , Lr , Epoch , Lr_schedualr (LrS), weight_decay = 1e-4
 |ResNet34  |21.8M |3.67G|74.52|91.99|1024|0.4|120|warm5+cosine|Y Han
 |ResNet50  |25.6M |4.10G|76.78|93.34|1024|0.4|90|warm5+cosine|Y Han
 |ResNet50  |25.6M |4.10G|77.28|93.46|1024|0.4|120|warm5+cosine|Y Han
-|ResNet101 |44.6M |7.82G|-|-|1024|0.4|90|warm5+cosine|Y Han
-|ResNet101 |44.6M |7.82G|78.68|94.32|1024|0.4|120|warm5+cosine|Y Han
+|ResNet101 |44.6M |7.82G|78.71|94.28|1024|0.4|90|warm5+cosine|Y Han
+|ResNet101 |44.6M |7.82G|-|-|1024|0.4|120|warm5+cosine|Y Han
 |ResNet50  |25.6M |-|77.0|93.2|512|0.2|300|cosine|Y Wang
 |ResNet101 |44.6M |-|78.3|93.9|512|0.2|300|cosine|Y Wang
 |ResNet152 |60.3M |-|78.7|94.2|512|0.2|300|cosine|Y Wang
