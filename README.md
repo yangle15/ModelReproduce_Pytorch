@@ -28,7 +28,7 @@ Batch_size(B) , Lr , Epoch , Lr_schedualr (LrS), weight_decay = 1e-4
 |ResNeXt101, 32x8d|88.8M|-|78.9|94.1|512|0.2|300|cosine|Y Wang
 
 ## DenseNet
-**Provided by [Haojun Jiang](https://github.com/thuallen), [Yulin Wang](https://github.com/blackfeather-wang)'.**
+**Provided by [Haojun Jiang](https://github.com/jianghaojun), [Yulin Wang](https://github.com/blackfeather-wang)'.**
 
 |Model|Params|Flops|Top-1|Top-5|B|Lr|Epoch|LrS|Provider|
 |-----|------|-----|-----|-----|---|---|---|---|---|
