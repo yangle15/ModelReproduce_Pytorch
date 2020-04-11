@@ -32,8 +32,16 @@ Batch_size(B) , Lr , Epoch , Lr_schedualr (LrS), weight_decay = 1e-4
 
 |Model|Params|Flops|Top-1|Top-5|B|Lr|Epoch|LrS|Provider|
 |-----|------|-----|-----|-----|---|---|---|---|---|
-|DenseNetBC121 |8.0M |2.85G|75.02|92.32|1024|0.4|90|Step-0.1-[30,60]|H Jiang
-
+|DenseNetBC121 |8.0M |2.85G|75.02|92.32|1024|0.4|90|step-0.1-[30,60]|H Jiang
+|DenseNetBC121 |8.0M |2.85G|75.71|92.72|1024|0.4|90|cosine|H Jiang
+|DenseNetBC169 |14.2M |3.38G|76.20|93.12|1024|0.4|90|step-0.1-[30,60]|H Jiang
+|DenseNetBC169 |14.2M |3.38G|77.35|93.62|1024|0.4|90|cosine|H Jiang
+|DenseNetBC201 |20.0M |4.32G|77.04|93.50|1024|0.4|90|step-0.1-[30,60]|H Jiang
+|DenseNetBC201 |20.0M |4.32G|78.06|93.92|1024|0.4|90|cosine|H Jiang
+|DenseNetBC265 |33.3M |5.79G|77.60|93.78|1024|0.4|90|step-0.1-[30,60]|H Jiang
+|DenseNetBC265 |33.3M |5.79G|78.17|94.01|1024|0.4|90|cosine|H Jiang
+|DenseNetBC121 |8.0M |2.85G|75.00|92.30|512|0.2|300|cosine|Y Wang
+|DenseNetBC265 |33.3M |5.79G|77.80|93.90|512|0.2|300|cosine|Y Wang
 
 ****
 Still under construction.
