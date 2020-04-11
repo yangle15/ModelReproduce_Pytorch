@@ -4,14 +4,14 @@ This repository contains pytorch codes for popular deep CNN architectures and re
 
 # ImageNet Results
 
-**Provided by [Yizeng Han](https://github.com/thuallen), [Yulin Wang](https://github.com/blackfeather-wang)'.**
-
 Experimental setting:
 ```
 Batch_size(B) , Lr , Epoch , Lr_schedualr (LrS), weight_decay = 1e-4
 ```
 
 ## ResNet
+**Provided by [Yizeng Han](https://github.com/thuallen), [Yulin Wang](https://github.com/blackfeather-wang)'.**
+
 
 |Model|Params|Flops|Top-1|Top-5|B|Lr|Epoch|LrS|Provider|
 |-----|------|-----|-----|-----|---|---|---|---|---|
@@ -26,6 +26,13 @@ Batch_size(B) , Lr , Epoch , Lr_schedualr (LrS), weight_decay = 1e-4
 |ResNet152 |60.3M |-|78.7|94.2|512|0.2|300|cosine|Y Wang
 |ResNeXt50, 32X4d |25.0M|-|77.5|93.6|512|0.2|300|cosine|Y Wang
 |ResNeXt101, 32x8d|88.8M|-|78.9|94.1|512|0.2|300|cosine|Y Wang
+
+## DenseNet
+**Provided by [Haojun Jiang](https://github.com/thuallen), [Yulin Wang](https://github.com/blackfeather-wang)'.**
+
+|Model|Params|Flops|Top-1|Top-5|B|Lr|Epoch|LrS|Provider|
+|-----|------|-----|-----|-----|---|---|---|---|---|
+|DenseNetBC121 |8.0M |2.85G|75.02|92.32|1024|0.4|90|Step-0.1-[30,60]|H Jiang
 
 
 ****
